@@ -12,7 +12,7 @@ gulp.task('browser-sync', function() {
 
 // the real action
 gulp.task('default', ['browser-sync'], function () {
-    gulp.watch('./views/**/*.jade', bs.reload);
+    gulp.watch('./views/**/*.ejs', bs.reload);
     gulp.watch('./public/**/*.js', bs.reload);
     gulp.watch('./public/**/*.sass', bs.reload);
     gulp.watch('./routes/*.js', bs.reload);

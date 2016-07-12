@@ -1,8 +1,45 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
-
-a {
-  color: #00B7FF; }
+.main-area {
+  margin-top: 30px;
+  min-height: 900px;
+  background: green; }
+  .main-area .row {
+    height: 900px; }
+  .main-area .rooms-col {
+    background: #025A8C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: inherit; }
+    .main-area .rooms-col img {
+      max-width: 50%;
+      margin: 20px auto; }
+    .main-area .rooms-col .input-group .add-btn {
+      background: #0096A3;
+      color: white; }
+    .main-area .rooms-col h5 {
+      margin-top: 30px; }
+  .main-area .room-col {
+    padding-top: 20px;
+    border-top: 2px solid #F9F9F9;
+    border-bottom: 2px solid #F9F9F9;
+    background: white;
+    height: 100%;
+    color: #363636; }
+    .main-area .room-col .text-entry {
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      right: 5px; }
+    .main-area .room-col #message-button {
+      background: #0096A3;
+      color: white; }
+  .main-area .users-col {
+    padding-top: 20px;
+    background: #F9F9F9;
+    color: #363636;
+    height: 100%;
+    border: none; }
+  .main-area .box {
+    height: auto !important; }
 
 /*# sourceMappingURL=style.css.map */
