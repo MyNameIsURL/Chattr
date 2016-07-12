@@ -1,9 +1,9 @@
-Node Chat App
-=============
+Chattr
+======
 
 ### Description
 
-The aim of this project to is create a chat room system similar to Gitter or Slack. The app will feature multiple chat rooms,
+The aim of Chattr to is create a chat room system similar to Gitter or Slack. The app will feature multiple chat rooms,
 multiple users and eventually the ability to view previous history by adding a database to the project. 
 
 ### Setup
